@@ -16,6 +16,7 @@ public class InsertController {
 	@PostMapping("/insertData")
 	public String postData(@RequestBody Student s) {
 		Student s1=ss.saveData(s);
+		//update from eclipse
 		return "inser producer";
 	}
 }
