@@ -17,6 +17,7 @@ public class InsertController {
 	public String postData(@RequestBody Student s) {
 		Student s1=ss.saveData(s);
 		//update from eclipse
+		//update by pappu
 		return "inser producer";
 	}
 }
