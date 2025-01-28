@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.crud.cjc.main.model.Student;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Integer>{
-
+//hemant sakarge 
 }
