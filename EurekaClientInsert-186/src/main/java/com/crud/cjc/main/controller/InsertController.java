@@ -18,6 +18,7 @@ public class InsertController {
 		Student s1=ss.saveData(s);
 		//update from eclipse
 		//update by pappu
+		//ddddd
 		return "inser producer";
 	}
 }
